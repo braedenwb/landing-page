@@ -34,7 +34,7 @@ body {
 
 .hero-container {
     background: #1F2937;
-    padding: 16px 256px;
+    padding: 96px 256px;
     display: flex;
 }
 
@@ -46,13 +46,20 @@ body {
 
 .hero-main-text {
     color: #F9FAF8;
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 900;
+
+    /* NOT NEEDED just makes it look cleaner */
+    max-width: 500px;
 }
 
 .hero-sub-text {
     color: #E5E7EB;
     font-size: 18px;
+    padding: 15px 0px;
+
+    /* NOT NEEDED just makes it look cleaner */
+    max-width: 650px;
 }
 
 .hero-button {
@@ -62,18 +69,15 @@ body {
     font-weight: 800;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
-    max-width: 140px;
-}
-
-.hero-right {
-    display: flex;
-    flex-basis: 50%;
+    padding: 10px 10px;
+    max-width: 130px;
 }
 
 .hero-image {
     color: #F9FAF8;
     background: #5c6879;
     display: flex;
+    flex-basis: 50%;
     align-items: center;
+    justify-content: center;
 }
