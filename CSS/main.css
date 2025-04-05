@@ -38,7 +38,7 @@ body {
     display: flex;
 }
 
-.hero-left {
+.hero-information-container {
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
@@ -80,4 +80,34 @@ body {
     flex-basis: 50%;
     align-items: center;
     justify-content: center;
+}
+
+/* Information */
+
+.information-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+}
+
+.info-box {
+    width: 200px;
+    height: 200px;
+    border: #3882F6 solid 10px;
+    border-radius: 10px;
+}
+
+.info-text {
+    color: #1F2937;
+    font-size: 18px;
+    max-width: 200px;
+    text-align: center;
 }
