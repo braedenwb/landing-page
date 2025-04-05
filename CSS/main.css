@@ -71,6 +71,7 @@ body {
     border-radius: 5px;
     padding: 10px 10px;
     max-width: 130px;
+    cursor: pointer;
 }
 
 .hero-image {
@@ -131,4 +132,44 @@ body {
     font-weight: 800;
     text-align: right;
     padding-right: 64px;
+}
+
+/* Call to Action card */
+
+.card-container {
+    background: #3882F6;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    margin: 96px 256px;
+    padding: 50px 0px;
+}
+
+.card-information-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    padding: 0px 128px;
+}
+
+.card-header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-description {
+    color: #E5E7EB;
+    font-size: 18px
+}
+
+.card-button {
+    background: #3882F6;
+    color: #F9FAF8;
+    font-weight: 800;
+    font-size: 18px;
+    border: #F9FAF8 solid 2px;
+    border-radius: 5px;
+    padding: 0px 40px;
+    cursor: pointer;
 }
