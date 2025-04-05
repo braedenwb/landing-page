@@ -173,3 +173,13 @@ body {
     padding: 0px 40px;
     cursor: pointer;
 }
+
+.footer {
+    background: #1F2937;
+    padding: 24px 0px;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    text-align: center;
+}
